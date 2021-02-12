@@ -1,0 +1,11 @@
+{
+  "name": "mark-react-exer--js-write-map",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "node src/partA.js",
+    "test": "echo \"Error: There are no tests for this project\" && exit 1"
+  },
+  "license": "ISC",
+  "dependencies": {}
+}
