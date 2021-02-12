@@ -9,7 +9,7 @@ methods:
   - solo
 
 tags:
-  - map, forEach, filter, higher-order-function, hof
+  - WIP.  map, forEach, filter, higher-order-function, hof
 ---
 
 # Writing your own version of map, forEach, and filter
@@ -28,7 +28,7 @@ This small set of exercises has you implement functions that do the same thing a
 
 There are a set of exercises associated with each of the following functions (array.map, array.forEach, and array.filter).
 
-We advise that you do not attempt a set of exercises until such time in the course as you are familiar with the _use_ of the corresponding function.
+We advise that you do not attempt a set of exercises until such time in the course as you are familiar with the _use_ of the corresponding function. (With the exception of the bonus function, `partition`)
 
 First learn how to _use_ the function in other exercise sets. Then, come back to this exercise set and write a version of the function for yourself for deeper understanding.
 
@@ -58,11 +58,12 @@ Work through the following exercises in order.
 
 - Add section on tracing the execution of these functions in the debugger.
 
-- Add exercise to write and use `partition`
-
 - Add pointers to other array functions which are worth writing
   e.g.
+
   - find,
   - minBy,
   - every,
-  - partition
+  - ...
+
+- Sequence a much later set of exercises writing these in TypeScript

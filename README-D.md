@@ -26,7 +26,7 @@ Write a function to the following specification:
 
 Returns an array with two elements: first, an array of elements which pass the test, second, an array of elements which failed the test. Either of these arrays may be empty.
 
-For example: `partition([1,2,3,4,5], isOdd)` should return `[ [1,3,5], [2, 4]]`
+For example: `partition([1,2,3,4,5], isOdd)` should return `[ [1,3,5], [2, 4] ]`
 
 ### Behaviour:
 
