@@ -43,7 +43,7 @@ First learn how to _use_ the function in other exercise sets. Then, come back to
 
 - Clone this repo (or fork then clone)
 - In the repo directory, run `yarn` to install any required packages.
-- Check that you can run `yarn start`
+- Check that when you run `yarn start` - you get an error about needing to write a `map` function!
 
 ## The exercise parts:
 
@@ -59,11 +59,13 @@ Work through the following exercises in order.
 - Add section on tracing the execution of these functions in the debugger.
 
 - Add pointers to other array functions which are worth writing
-  e.g.
+  e.g. (without the types...)
 
-  - find,
+  - find<T>(arr:T[], predFn:(T)=>boolean): T | undefined,
   - minBy,
-  - every,
-  - ...
+  - every<T>(arr:T[], predFn:(T)=>boolean):boolean,
+  - repeat(n, fn):void
+  - collect(n, fn):T[]
+  -
 
 - Sequence a much later set of exercises writing these in TypeScript
