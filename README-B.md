@@ -1,12 +1,16 @@
 [< Back](./README.md)
 
-## Exercise B: Write a function: `forEach`
+# Exercise B: Write a function: `forEach`
 
 (This will accomplish the same thing as array.forEach)
+
+## Setup
 
 Edit package.json so that the start script runs node on `src/partB.js`.
 
 Open `src/partB.js`
+
+## Write it!
 
 Write a function to the following specification.
 

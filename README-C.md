@@ -1,17 +1,21 @@
 [< Back](./README.md)
 
-## Exercise C. Write a function: filter
+# Exercise C: Write a function: filter
+
+## Setup:
 
 Edit package.json so that the start script runs node on `src/partC.js`.
 
 Open `src/partC.js`
+
+## Write it!
 
 Write a function to the following specification:
 
 ### Parameters:
 
 - an array to examine
-- a function, `testIt`, to test an element of the array
+- a function, `testIt`, to test an element of the array. You can assume the function will always return a boolean value.
   - (This sort of function is commonly known as a "predicate" function or less-formally, a test function.)
 
 ### Return value:
@@ -19,6 +23,8 @@ Write a function to the following specification:
 Returns a new array with zero or more elements.
 
 ### Behaviour:
+
+Your function should prepare and return a new array containing the elements from the original array which "pass the test" implemented by the `testIt` function.
 
 For each element of the given array, your function should call the given testIt function, passing the element to the function as an argument.
 
