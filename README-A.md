@@ -8,17 +8,15 @@ Open `src/partA.js`
 
 There, write a function which takes an array of numbers and returns a new array containing the original elements multiplied by two.
 
-It should call the following function, `double`, for each element.
+It should call the provided function, `double`, for each element.
 
 # Exercise A.2 (warm-up): Write a function: squareArray
 
 Continue in the same file.
 
-Write a function which takes an array of strings and returns a new array containing uppercase versions of the original elements. Be careful to use the given function, `uppercase`, to process each element. Yes, it isn't a very useful function.
+Write a function which takes an array of strings and returns a new array containing uppercase versions of the original elements. Be careful to use the provided `uppercase` function to process each element. (Yes, it isn't a very useful function, but bear with us.)
 
 # Exercise A.3 (warm-up): Commonalities and differences
-
-Continue in the same file.
 
 Look at your two functions, doubleArray, and squareArray. What do they have in common and what parts of their code differ?
 
