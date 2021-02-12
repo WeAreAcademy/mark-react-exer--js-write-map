@@ -1,6 +1,6 @@
 [< Back](./README.md)
 
-# Exercise C. Write a function: partition
+# Exercise D. Write a function: partition
 
 ## About `partition`
 
