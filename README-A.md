@@ -45,6 +45,6 @@ a new array containing converted elements
 
 ### Behaviour:
 
-The function should return a new array containing the collected results from calling the given function to convert every element of the original array in turn.
+The function should prepare and return a new array containing the collected results from calling the given function to convert, in turn, every element of the original array.
 
 [Next >](./README-B.md)
