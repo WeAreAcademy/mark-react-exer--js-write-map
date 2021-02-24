@@ -12,15 +12,17 @@ So if the input array were `[1, 5, 10]`, your function ought to return `[2, 10, 
 
 Importantly, it should call the provided function, `double`, on each element.
 
-# Exercise A.2 (warm-up): Write a function: squareArray
+# Exercise A.2 (warm-up): Write a function: uppercaseArray
 
 Continue in the same file.
 
 Write a function which takes an array of strings and returns a new array containing uppercase versions of the original elements. Be careful to use the provided `uppercase` function to process each element. (Yes, it isn't a very useful function, but bear with us.)
 
+E.g. `uppercaseArray(["hi", "bye"])` should return `["HI", "BYE"]`
+
 # Exercise A.3 (warm-up): Commonalities and differences
 
-Look at your two functions, doubleArray, and squareArray. What do they have in common and what parts of their code differ?
+Look at your two functions, doubleArray, and uppercaseArray. What do they have in common and what parts of their code differ?
 
 In the next exercise you'll write a function which performs the common parts but delegates the custom work to a function it receives as a parameter.
 
