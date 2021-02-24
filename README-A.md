@@ -6,9 +6,11 @@ Check in package.json that the start script runs node on `src/partA.js`.
 
 Open `src/partA.js`
 
-There, write a function which takes an array of numbers and returns a new array containing the original elements multiplied by two.
+There, write a function which takes an array of numbers and returns a new array containing the original elements each multiplied by two.  
 
-It should call the provided function, `double`, for each element.
+So if the input array were `[1, 5, 10]`, your function ought to return `[2, 10, 20]`.
+
+Importantly, it should call the provided function, `double`, on each element.
 
 # Exercise A.2 (warm-up): Write a function: squareArray
 
